@@ -1,0 +1,61 @@
+header {
+    width: 100dvw;
+    height: 60px;
+    background-color: rgb(255, 144, 26);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    box-sizing: border-box;
+}
+
+h2 {
+    color:white;
+    font-size: 24px;
+}
+
+.navBtn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.navBtn:hover {
+    background-color: orange;
+    box-shadow: 1px 1px;
+}
+
+footer {
+    width: 100dvw;
+    height: 150px;
+    background-color: rgb(68, 68, 68);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:absolute;
+    bottom: 0;
+    margin-top:100px;
+    box-sizing: border-box;
+}
+
+h5 {
+    color: white;
+    font-size: 18px;
+}
+
+.social {
+   display:flex;
+   gap: 5px;
+}
+
+.iconCircle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
