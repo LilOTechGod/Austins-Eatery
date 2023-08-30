@@ -1,10 +1,12 @@
 import React from "react";
 import salmon from "../../assets/salmon.jpg";
 import { Link } from "react-router-dom";
+import styles from './Home.module.css'
 
 const AdBanner = () => {
   return (
     <div
+    className={styles.background}
       style={{
         background: `linear-gradient(
           190deg,
@@ -14,7 +16,7 @@ const AdBanner = () => {
         backgroundSize: "cover",
       }}
     >
-      <div>
+      <div className={styles.imgBodyText}>
         <h3>New Recipe</h3>
         <h1>Pineapple Salmon</h1>
         <h3>

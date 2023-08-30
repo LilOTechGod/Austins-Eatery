@@ -4,6 +4,8 @@ import axios from 'axios'
 
 const HomeScreen = () => {  
 
+  const [recipe, setRecipe]=useState();
+
   const getRecipes = () => {
     axios.get('https://recipes.devmountain.com/recipes')
       .then(res => {
@@ -13,7 +15,6 @@ const HomeScreen = () => {
       .catch(err => console.error(err));
   };
 
-  const [recipe, setRecipe]=useState();
 
   useEffect(() => {
     getRecipes()
