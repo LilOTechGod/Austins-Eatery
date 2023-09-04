@@ -1,0 +1,73 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 26rem;
+}
+
+.formTitle {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.firstSetInput {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.radioBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.secondSetInput {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.thirdSetInput {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+    justify-content: space-around;
+}
+
+.firstBtn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textArea {
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formBtn {
+    color: white;
+    background-color: orange;
+    border: none;
+}
+
+.secondBtn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}

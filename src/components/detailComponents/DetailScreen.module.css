@@ -1,0 +1,16 @@
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+aside {
+    border: 2px solid grey;
+    padding: 10px;
+    width: 30%;
+}
+
+.detailTitle {
+    color: black;
+    margin-bottom: 10px;
+}

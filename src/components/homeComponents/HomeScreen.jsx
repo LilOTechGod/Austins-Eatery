@@ -46,7 +46,7 @@ const HomeScreen = () => {
         />
       </div>
       <div className={styles.hs}>
-       {search !== '' ? recipeDisplay : <h3>To see a recipe search for for one!</h3>}
+       {search !== '' ? recipeDisplay : <h3>To see a recipe search for one!</h3>}
       </div>
     </div>
   );
