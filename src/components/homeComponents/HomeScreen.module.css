@@ -1,0 +1,29 @@
+.hs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.searchBar {
+    background-color: rgb(255, 194, 144);
+    width: 40%;
+    border-radius: 20px;
+    padding: 3px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.searchInput {
+    background-color: rgb(255, 194, 144);
+    color: black;
+    border: none;
+}

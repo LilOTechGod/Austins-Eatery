@@ -1,0 +1,28 @@
+.recCard {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+img {
+    width: 100%;
+    height: 65%
+}
+
+.recBtn {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bodytext {
+    box-shadow: inset 0px -1px 6px 0px rgb(171, 171, 171);
+    gap: 10px;
+}
