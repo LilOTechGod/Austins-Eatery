@@ -6,6 +6,7 @@ export const RecipeCard = (props) => {
     const navigate = useNavigate();
 
     const handleClick = () => {
+        console.log(props.recipe_id);
         navigate(`/recipe/${props.recipe_id}`)
     }
 

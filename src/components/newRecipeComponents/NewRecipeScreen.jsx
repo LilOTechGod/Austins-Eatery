@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Formik } from "formik";
 import styles from './NewRecipe.module.css'
+// import axios from 'axios';
 
 const NewRecipeScreen = () => {
   const [ingredients, setIngredients] = useState([]);
@@ -24,16 +25,22 @@ const NewRecipeScreen = () => {
     instructions: "",
   };
 
-  const onSubmit = (values) => {
+  const handleSubmit = (values) => {
     values.ingredients = ingredients;
     console.log(values);
+
+    // axios.post(`https://recipes.devmountain.com/recipes`, values)
+    //   .then( res => {
+    //     res.status(200).send(res);
+    //   })
+    //   .catch(err => console.error(err))
   };
 
   return (
     <section>
       <h1 className={styles.formTitle}>Tell us about your Recipe!</h1>
       {/* Here you will have a large form. Be prepared, part 4 will have you build this form in detail, and part 5 will have you style it. Do your best! */}
-      <Formik initialValues={initialValues} onSubmit={onSubmit}>
+      <Formik initialValues={initialValues} onSubmit={handleSubmit}>
         {({ values, handleChange, handleSubmit }) => (
           <form onSubmit={handleSubmit}>
             <div className={styles.firstSetInput}>

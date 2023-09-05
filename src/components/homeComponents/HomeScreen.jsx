@@ -29,7 +29,7 @@ const HomeScreen = () => {
 
     return title.includes(searchParams)
   }).map((rec, index) => {
-    return <RecipeCard image_url={rec.image_url} recipe_name={rec.recipe_name} />
+    return <RecipeCard image_url={rec.image_url} recipe_name={rec.recipe_name}  recipe_id={rec.recipe_id} />
   })
 
   return (
